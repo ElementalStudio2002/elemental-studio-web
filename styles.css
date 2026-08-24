@@ -2744,3 +2744,713 @@ footer a:hover {
     }
 
 }
+
+/* ==========================================
+   PROYECTOS 06 / 07 / 08
+   MISMO ESTILO QUE CASA C.P. Y CASA D.R.
+========================================== */
+
+
+/* ==========================================
+   ESTRUCTURA GENERAL
+========================================== */
+
+.inmobiliaria-page .project-description,
+.modulos-sb-page .project-description,
+.auditorio-page .project-description {
+
+    display: grid;
+
+    grid-template-columns: 1fr 360px;
+
+    column-gap: 80px;
+
+    align-items: start;
+
+    width: 1120px;
+
+    max-width: calc(100% - 120px);
+
+    margin: 0 auto;
+
+    padding: 120px 0 100px;
+}
+
+
+/* ==========================================
+   COLUMNA IZQUIERDA
+========================================== */
+
+.inmobiliaria-left,
+.modulos-sb-left,
+.auditorio-left {
+
+    grid-column: 1;
+
+    min-width: 0;
+}
+
+
+/* ==========================================
+   TÍTULO
+   MISMA TIPOGRAFÍA
+========================================== */
+
+.inmobiliaria-page .project-description-title,
+.modulos-sb-page .project-description-title,
+.auditorio-page .project-description-title {
+
+    margin: 0 0 45px;
+}
+
+
+.inmobiliaria-page .project-description-title span,
+.modulos-sb-page .project-description-title span,
+.auditorio-page .project-description-title span {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-size: 10px;
+
+    line-height: 1;
+
+    letter-spacing: 4px;
+
+    font-weight: 400;
+
+    color: #777777;
+}
+
+
+.inmobiliaria-page .project-description-title h2,
+.modulos-sb-page .project-description-title h2,
+.auditorio-page .project-description-title h2 {
+
+    margin: 0;
+
+    max-width: 700px;
+
+    font-family: inherit;
+
+    font-size: clamp(48px, 5vw, 76px);
+
+    line-height: 0.95;
+
+    font-weight: 400;
+
+    letter-spacing: -2px;
+}
+
+
+/* ==========================================
+   TEXTO A LA DERECHA
+========================================== */
+
+.inmobiliaria-page .project-description-text,
+.modulos-sb-page .project-description-text,
+.auditorio-page .project-description-text {
+
+    grid-column: 2;
+
+    grid-row: 1;
+
+    width: 100%;
+
+    max-width: 360px;
+
+    padding-top: 85px;
+}
+
+
+.inmobiliaria-page .project-description-text p,
+.modulos-sb-page .project-description-text p,
+.auditorio-page .project-description-text p {
+
+    margin: 0 0 24px;
+
+    font-size: 14px;
+
+    line-height: 1.9;
+
+    color: #444444;
+}
+
+
+/* ==========================================
+   INMOBILIARIA — 3 COLUMNAS
+========================================== */
+
+.inmobiliaria-page .inmobiliaria-gallery {
+
+    display: grid !important;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+    gap: 20px;
+
+    width: 100%;
+}
+
+
+.inmobiliaria-page .inmobiliaria-gallery .gallery-image {
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+.inmobiliaria-page .inmobiliaria-gallery .gallery-image img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 150px;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+
+.inmobiliaria-page .inmobiliaria-gallery .gallery-image:hover img {
+
+    transform: scale(1.04);
+}
+
+
+/* ==========================================
+   MÓDULOS S.B. — 2 COLUMNAS
+========================================== */
+
+.modulos-sb-page .modulos-sb-gallery {
+
+    display: grid !important;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 20px;
+
+    width: 100%;
+}
+
+
+.modulos-sb-page .modulos-sb-gallery .gallery-image {
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+.modulos-sb-page .modulos-sb-gallery .gallery-image img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 170px;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+
+.modulos-sb-page .modulos-sb-gallery .gallery-image:hover img {
+
+    transform: scale(1.04);
+}
+
+
+/* ==========================================
+   AUDITORIO — 2 COLUMNAS
+========================================== */
+
+.auditorio-page .auditorio-gallery {
+
+    display: grid !important;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 20px;
+
+    width: 100%;
+}
+
+
+.auditorio-page .auditorio-gallery .gallery-image {
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+.auditorio-page .auditorio-gallery .gallery-image img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 170px;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+
+.auditorio-page .auditorio-gallery .gallery-image:hover img {
+
+    transform: scale(1.04);
+}
+
+
+/* ==========================================
+   DATOS
+   MISMO ESTILO QUE LOS OTROS PROYECTOS
+========================================== */
+
+.inmobiliaria-page .project-details,
+.modulos-sb-page .project-details,
+.auditorio-page .project-details {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 40px;
+
+    width: 1120px;
+
+    max-width: calc(100% - 120px);
+
+    margin: 0 auto;
+
+    padding: 0 0 100px;
+
+    border: 0;
+}
+
+
+.inmobiliaria-page .project-details div,
+.modulos-sb-page .project-details div,
+.auditorio-page .project-details div {
+
+    padding: 0;
+}
+
+
+.inmobiliaria-page .project-details span,
+.modulos-sb-page .project-details span,
+.auditorio-page .project-details span {
+
+    display: block;
+
+    margin-bottom: 12px;
+
+    font-size: 10px;
+
+    line-height: 1;
+
+    letter-spacing: 3px;
+
+    font-weight: 400;
+
+    color: #777777;
+}
+
+
+.inmobiliaria-page .project-details strong,
+.modulos-sb-page .project-details strong,
+.auditorio-page .project-details strong {
+
+    display: block;
+
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 1.35;
+
+    letter-spacing: 0.5px;
+
+    font-weight: 500;
+
+    color: #111111;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 900px) {
+
+    .inmobiliaria-page .project-description,
+    .modulos-sb-page .project-description,
+    .auditorio-page .project-description {
+
+        grid-template-columns: 1fr;
+
+        width: auto;
+
+        max-width: calc(100% - 50px);
+
+        padding: 90px 0 80px;
+
+        gap: 50px;
+    }
+
+
+    .inmobiliaria-left,
+    .modulos-sb-left,
+    .auditorio-left,
+
+    .inmobiliaria-page .project-description-text,
+    .modulos-sb-page .project-description-text,
+    .auditorio-page .project-description-text {
+
+        grid-column: 1;
+
+        grid-row: auto;
+    }
+
+
+    .inmobiliaria-page .project-description-text,
+    .modulos-sb-page .project-description-text,
+    .auditorio-page .project-description-text {
+
+        padding-top: 0;
+
+        max-width: 650px;
+    }
+
+
+    .inmobiliaria-page .project-details,
+    .modulos-sb-page .project-details,
+    .auditorio-page .project-details {
+
+        width: auto;
+
+        max-width: calc(100% - 50px);
+
+        grid-template-columns: 1fr 1fr;
+
+        padding-bottom: 80px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .inmobiliaria-page .inmobiliaria-gallery {
+
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+
+    .modulos-sb-page .modulos-sb-gallery,
+    .auditorio-page .auditorio-gallery {
+
+        grid-template-columns: 1fr !important;
+    }
+
+
+    .inmobiliaria-page .project-details,
+    .modulos-sb-page .project-details,
+    .auditorio-page .project-details {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* ==========================================
+   GLAMPING MODULAR CON CONTAINERS
+========================================== */
+
+.glamping-page .glamping-description {
+
+    display: grid;
+
+    grid-template-columns: 1fr 360px;
+
+    column-gap: 80px;
+
+    align-items: start;
+
+    width: 1120px;
+
+    max-width: calc(100% - 120px);
+
+    margin: 0 auto;
+
+    padding: 120px 0 100px;
+}
+
+
+.glamping-page .glamping-left {
+
+    grid-column: 1;
+
+    min-width: 0;
+}
+
+
+/* TÍTULO */
+
+.glamping-page .project-description-title {
+
+    margin: 0 0 45px;
+}
+
+
+.glamping-page .project-description-title span {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-size: 10px;
+
+    line-height: 1;
+
+    letter-spacing: 4px;
+
+    font-weight: 400;
+
+    color: #777777;
+}
+
+
+.glamping-page .project-description-title h2 {
+
+    margin: 0;
+
+    max-width: 700px;
+
+    font-size: clamp(48px, 5vw, 76px);
+
+    line-height: 0.95;
+
+    font-weight: 400;
+
+    letter-spacing: -2px;
+}
+
+
+/* GALERÍA */
+
+.glamping-page .glamping-gallery {
+
+    display: grid !important;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+    gap: 20px;
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+
+.glamping-page .glamping-gallery .gallery-image {
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+.glamping-page .glamping-gallery .gallery-image img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 150px;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+
+.glamping-page .glamping-gallery .gallery-image:hover img {
+
+    transform: scale(1.04);
+}
+
+
+/* TEXTO */
+
+.glamping-page .project-description-text {
+
+    grid-column: 2;
+
+    grid-row: 1;
+
+    width: 100%;
+
+    max-width: 360px;
+
+    padding-top: 85px;
+}
+
+
+.glamping-page .project-description-text p {
+
+    margin: 0 0 24px;
+
+    font-size: 14px;
+
+    line-height: 1.9;
+
+    color: #444444;
+}
+
+
+/* DATOS */
+
+.glamping-page .project-details {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 40px;
+
+    width: 1120px;
+
+    max-width: calc(100% - 120px);
+
+    margin: 0 auto;
+
+    padding: 0 0 100px;
+
+    border: 0;
+}
+
+
+.glamping-page .project-details div {
+
+    padding: 0;
+}
+
+
+.glamping-page .project-details span {
+
+    display: block;
+
+    margin-bottom: 12px;
+
+    font-size: 10px;
+
+    line-height: 1;
+
+    letter-spacing: 3px;
+
+    font-weight: 400;
+
+    color: #777777;
+}
+
+
+.glamping-page .project-details strong {
+
+    display: block;
+
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 1.35;
+
+    letter-spacing: 0.5px;
+
+    font-weight: 500;
+
+    color: #111111;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .glamping-page .glamping-description {
+
+        grid-template-columns: 1fr;
+
+        width: auto;
+
+        max-width: calc(100% - 50px);
+
+        padding: 90px 0 80px;
+
+        gap: 50px;
+    }
+
+
+    .glamping-page .glamping-left,
+    .glamping-page .project-description-text {
+
+        grid-column: 1;
+
+        grid-row: auto;
+    }
+
+
+    .glamping-page .project-description-text {
+
+        padding-top: 0;
+
+        max-width: 650px;
+    }
+
+
+    .glamping-page .project-details {
+
+        width: auto;
+
+        max-width: calc(100% - 50px);
+
+        grid-template-columns: 1fr 1fr;
+
+        padding-bottom: 80px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .glamping-page .glamping-gallery {
+
+        grid-template-columns: 1fr 1fr !important;
+
+        gap: 15px;
+    }
+
+
+    .glamping-page .glamping-gallery .gallery-image img {
+
+        height: auto;
+    }
+
+
+    .glamping-page .project-details {
+
+        grid-template-columns: 1fr;
+    }
+
+}
