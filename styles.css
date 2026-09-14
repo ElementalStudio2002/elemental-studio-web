@@ -3454,3 +3454,84 @@ footer a:hover {
     }
 
 }
+
+/* ==========================================
+   CASA G.S. — NOMBRE DEL PROYECTO
+========================================== */
+
+.project-gs-page .project-hero-content h1 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+
+    font-size: clamp(65px, 9vw, 130px);
+
+    line-height: 0.9;
+
+    font-weight: 400;
+
+    letter-spacing: 7px;
+
+    margin: 18px 0 12px;
+}
+/* ==========================================
+   CASA G.S. — DATOS DEL PROYECTO
+   MISMO ESTILO QUE LOS DEMÁS
+========================================== */
+
+.project-gs-page .project-details span {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.project-gs-page .project-details strong {
+    display: block;
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 0.5px;
+
+    font-weight: 500;
+
+    color: #111111;
+}
+
+/* ==========================================
+   CASA G.S. — TARJETA DE PROYECTO
+   MISMO ESTILO QUE LOS DEMÁS
+========================================== */
+
+.project-gs-card {
+    color: #111111 !important;
+    text-decoration: none !important;
+}
+
+.project-gs-card h3 {
+    color: #111111 !important;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.project-gs-card p {
+    color: #777777 !important;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 9px 0 0;
+}
+
+.project-gs-card .project-architect {
+    display: block;
+    color: #999999 !important;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+}
