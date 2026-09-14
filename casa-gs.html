@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Casa G.S. | Elemental Studio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="project-page project-gs-page">
+
+    <!-- HEADER -->
+    <header class="project-header">
+
+        <a href="index.html" class="project-logo">
+            <img src="images/logo.png" alt="Elemental Studio">
+        </a>
+
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="project-hero">
+
+        <img src="images/casa-gs.01.png" alt="Casa G.S.">
+
+        <div class="project-hero-overlay"></div>
+
+        <div class="project-hero-content">
+
+            <span>PROYECTO 10</span>
+
+            <h1>CASA G.S.</h1>
+
+            <p>DISEÑO + CONSTRUCCIÓN</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- DESCRIPCIÓN -->
+    <section class="project-gs-description">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="project-gs-left">
+
+            <div class="project-description-title">
+
+                <span>CASA UNIFAMILIAR</span>
+
+                <h2>
+                    Un hogar pensado para vivir y disfrutar cada espacio.
+                </h2>
+
+            </div>
+
+
+            <!-- FOTOS -->
+            <div class="project-gs-gallery">
+
+                <div class="gallery-image">
+                    <img
+                        src="images/casa-gs.01.png"
+                        alt="Casa G.S.">
+                </div>
+
+                <div class="gallery-image">
+                    <img
+                        src="images/casa-gs.02.png"
+                        alt="Casa G.S.">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TEXTO A LA DERECHA -->
+        <div class="project-gs-description-text">
+
+            <p>
+                Casa G.S. fue concebida como una vivienda unifamiliar que integra
+                funcionalidad, confort y espacios pensados para la vida cotidiana.
+                La propuesta organiza sus ambientes de manera clara, buscando que
+                cada espacio responda a las necesidades de quienes la habitan.
+            </p>
+
+            <p>
+                La vivienda cuenta con tres dormitorios, una habitación principal
+                y dos dormitorios adicionales. El proyecto incorpora además
+                balcones y diferentes espacios sociales como sala, comedor,
+                chimenea, bar y despensa.
+            </p>
+
+            <p>
+                Un proyecto desarrollado desde el diseño hasta su construcción,
+                cuidando la distribución y relación entre cada uno de sus ambientes.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- DATOS DEL PROYECTO -->
+    <section class="project-details project-gs-details">
+
+        <div>
+    <span>PROYECTO</span>
+    <strong>CASA G.S.</strong>
+</div>
+
+        <div>
+            <span>SERVICIO</span>
+            <strong>Diseño + Construcción</strong>
+        </div>
+
+        <div>
+            <span>UBICACIÓN</span>
+            <strong>Sevilla Don Bosco</strong>
+        </div>
+
+        <div>
+            <span>ARQUITECTO</span>
+            <strong>Arq. Josep Rodríguez</strong>
+        </div>
+
+    </section>
+
+
+    <!-- VOLVER -->
+    <section class="project-back" style="text-align: center;">
+
+    <a href="index.html">
+        ← VOLVER A PROYECTOS
+    </a>
+
+</section>
+
+
+    <!-- ESTILO EXCLUSIVO CASA G.S. -->
+    <style>
+
+        /* ==========================================
+           CASA G.S. — MISMO ESTILO CASA C.P.
+        ========================================== */
+
+        .project-gs-description {
+
+            display: grid;
+
+            grid-template-columns: 620px 390px;
+
+            column-gap: 80px;
+
+            align-items: start;
+
+            width: 1090px;
+            max-width: 1090px;
+
+            margin: 0 auto;
+
+            padding: 120px 0 100px;
+        }
+
+
+        /* COLUMNA IZQUIERDA */
+
+        .project-gs-left {
+
+            width: 620px;
+            min-width: 620px;
+        }
+
+
+        /* TÍTULO */
+
+        .project-gs-left .project-description-title {
+
+            margin: 0 0 45px;
+        }
+
+
+        .project-gs-left .project-description-title span {
+
+            display: block;
+
+            margin-bottom: 20px;
+
+            font-size: 10px;
+
+            letter-spacing: 4px;
+
+            color: #777777;
+        }
+
+
+        .project-gs-left .project-description-title h2 {
+
+            margin: 0;
+
+            max-width: 750px;
+
+            font-size: 68px;
+
+            line-height: 0.95;
+
+            font-weight: 400;
+
+            letter-spacing: -2px;
+        }
+
+
+        /* ==========================================
+           GALERÍA
+        ========================================== */
+
+        .project-gs-gallery {
+
+            display: grid;
+
+            grid-template-columns: 180px 180px;
+
+            column-gap: 25px;
+
+            row-gap: 25px;
+
+            width: 385px;
+
+            margin: 45px 0 0;
+
+            padding: 0;
+        }
+
+
+        /* CADA FOTO */
+
+        .project-gs-gallery .gallery-image {
+
+            width: 180px !important;
+
+            min-width: 180px !important;
+
+            max-width: 180px !important;
+
+            overflow: hidden;
+
+            margin: 0;
+
+            padding: 0;
+        }
+
+
+        /* IMÁGENES */
+
+        .project-gs-gallery .gallery-image img {
+
+            display: block;
+
+            width: 180px !important;
+
+            max-width: 180px !important;
+
+            height: 155px !important;
+
+            object-fit: cover;
+
+            margin: 0;
+
+            padding: 0;
+
+            transition: transform 0.6s ease;
+        }
+
+
+        .project-gs-gallery .gallery-image:hover img {
+
+            transform: scale(1.04);
+        }
+
+
+        /* ==========================================
+           TEXTO A LA DERECHA
+        ========================================== */
+
+        .project-gs-description-text {
+
+            grid-column: 2;
+
+            grid-row: 1;
+
+            width: 390px;
+
+            max-width: 390px;
+
+            padding-top: 85px;
+        }
+
+
+        .project-gs-description-text p {
+
+            margin: 0 0 24px;
+
+            font-size: 14px;
+
+            line-height: 1.9;
+
+            color: #444444;
+        }
+
+
+        /* ==========================================
+           DATOS
+        ========================================== */
+
+        .project-gs-details {
+
+            width: 1090px;
+
+            max-width: 1090px;
+
+            margin: 0 auto;
+
+            padding: 0 0 100px;
+
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 40px;
+        }
+
+
+        /* ==========================================
+           RESPONSIVE
+        ========================================== */
+
+        @media (max-width: 900px) {
+
+            .project-gs-description {
+
+                display: block;
+
+                width: 100%;
+
+                max-width: 100%;
+
+                padding: 90px 25px;
+            }
+
+
+            .project-gs-left {
+
+                width: 100%;
+
+                min-width: 0;
+            }
+
+
+            .project-gs-description-text {
+
+                width: 100%;
+
+                max-width: 600px;
+
+                padding-top: 50px;
+            }
+
+
+            .project-gs-gallery {
+
+                width: 100%;
+
+                max-width: 100%;
+
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+
+            .project-gs-gallery .gallery-image {
+
+                width: 100% !important;
+
+                min-width: 0 !important;
+
+                max-width: none !important;
+            }
+
+
+            .project-gs-gallery .gallery-image img {
+
+                width: 100% !important;
+
+                max-width: none !important;
+
+                height: 140px !important;
+            }
+
+
+            .project-gs-details {
+
+                width: 100%;
+
+                max-width: 100%;
+
+                padding: 0 25px 80px;
+
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+
+        @media (max-width: 600px) {
+
+            .project-gs-gallery {
+
+                grid-template-columns: 1fr 1fr;
+            }
+
+
+            .project-gs-gallery .gallery-image img {
+
+                height: auto !important;
+            }
+
+
+            .project-gs-details {
+
+                grid-template-columns: 1fr;
+            }
+        }
+/* ==========================================
+   VOLVER A PROYECTOS
+========================================== */
+
+.project-bottom {
+    width: 1090px;
+    max-width: 1090px;
+
+    margin: 0 auto;
+
+    padding: 0 0 100px;
+
+    background: #f2f1ed;
+}
+
+.project-back-link {
+    display: inline-block;
+
+    color: #111111;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    letter-spacing: 4px;
+
+    line-height: 1;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #111111;
+
+    transition: opacity 0.3s ease;
+}
+
+.project-back-link:hover {
+    opacity: 0.5;
+}
+    </style>
+
+</body>
+</html>
